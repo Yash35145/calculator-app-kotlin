@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/MainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_2"
+    app:layoutDescription="@xml/activity_main_scene">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_divide"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:background="@drawable/ripple_effect"
+        android:fontFamily="@font/brunoace"
+        android:text="/"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_9"
+        app:layout_constraintVertical_bias="0.414" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_minus"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:background="@drawable/ripple_effect"
+        android:fontFamily="@font/brunoace"
+        android:text="-"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.634"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.886" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_0"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:background="@drawable/ripple_effect"
+        android:fontFamily="@font/brunoace"
+        android:text="@string/_0"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.334"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_8"
+        app:layout_constraintVertical_bias="0.746" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_dot"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:background="@drawable/ripple_effect"
+        android:fontFamily="@font/brunoace"
+        android:text="."
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_4"
+        app:layout_constraintVertical_bias="0.619" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_plus"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:background="@drawable/ripple_effect"
+        android:fontFamily="@font/brunoace"
+        android:text="+"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.886" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_3"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:background="@drawable/ripple_effect"
+        android:fontFamily="@font/brunoace"
+        android:text="@string/_3"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.634"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.735" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_2"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:background="@drawable/ripple_effect"
+        android:fontFamily="@font/brunoace"
+        android:text="@string/_2"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.334"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.735" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_1"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:background="@drawable/ripple_effect"
+        android:fontFamily="@font/brunoace"
+        android:text="@string/_1"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.735" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_multiply"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:background="@drawable/ripple_effect"
+        android:fontFamily="@font/brunoace"
+        android:text="X"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_6"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+
+        android:background="@drawable/ripple_effect"
+        android:fontFamily="@font/brunoace"
+        android:text="@string/_6"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.634"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_5"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:background="@drawable/ripple_effect"
+        android:fontFamily="@font/brunoace"
+        android:text="@string/_5"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.334"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_4"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:background="@drawable/ripple_effect"
+        android:fontFamily="@font/brunoace"
+        android:text="@string/_4"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_9"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:background="@drawable/ripple_effect"
+        android:fontFamily="@font/brunoace"
+        android:text="@string/_9"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.635"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.427" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_clear"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+
+        android:background="@drawable/ripple_effect"
+        android:fontFamily="@font/brunoace"
+        android:text="AC"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.427" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_8"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:background="@drawable/ripple_effect"
+        android:fontFamily="@font/brunoace"
+        android:text="@string/_8"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.336"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.427" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="389dp"
+        android:layout_height="274dp"
+        android:background="@drawable/text_view_design"
+        android:gravity="end|bottom"
+        android:padding="22dp"
+        android:textColor="@color/white"
+        android:textSize="67dp"
+        android:fontFamily="@font/brunoace"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_7"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:background="@drawable/ripple_effect"
+        android:fontFamily="@font/brunoace"
+        android:text="@string/_7"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.427" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonEqual"
+        android:layout_width="207dp"
+        android:layout_height="58dp"
+        android:background="@drawable/button_equal_ripple"
+        android:text="="
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.989" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

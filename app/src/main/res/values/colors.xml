@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="new_color_1">#70e1f5</color>
+    <color name="new_color_2">#B3FFAB</color>
+    <color name="new_color_3">#12FFF7</color>
+    <color name="new_color_4">#a8ff78</color>
+    <color name="new_color_5">#00dbde</color>
+    <color name="new_color_6">#76e5aa</color>
+    <color name="new_color_7">#00ffc8</color>
+    <color name="new_color_8">#78ffd6</color>
+    <color name="new_color_9">#92FE9D</color>
+    <color name="new_color_10">#2BC0E4</color>
+    <color name="new_color_11">#11FFBD</color>
+    <color name="new_color_12">#EAECC6</color>
+    <color name="new_color_13">#1FA2FF</color>
+    <color name="new_color_14">#12D8FA</color>
+    <color name="new_color_15">#A6FFCB</color>
+    <color name="new_color_16">#5433FF</color>
+    <color name="new_color_17">#20BDFF</color>
+    <color name="new_color_18">#A6FFCB</color>
+    <color name="new_color_19">#c471ed</color>
+    <color name="new_color_20">#1cfeba</color>
+    <color name="new_color_21">#03f7eb</color>
+    <color name="new_color_22">#93EDC7</color>
+</resources>
